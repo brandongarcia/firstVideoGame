@@ -1,5 +1,5 @@
 var canvas = document.createElement("canvas");
-car ctx = canvas.getContext("2d");
+var ctx = canvas.getContext("2d");
 canvas.width = 512;
 canvas.height = 480;
 document.body.appendChild(canvas);
@@ -10,7 +10,7 @@ var bgImage = new Image();
 bgImage.onload = function(){
     bgReady = true;
 };
-bgImage.src = "images/background.png";
+bgImage.src = "https://github.com/lostdecade/simple_canvas_game/blob/master/images/background.png";
 
 var heroReady = false;
 var heroImage = new Image();

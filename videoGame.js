@@ -10,7 +10,7 @@ var bgImage = new Image();
 bgImage.onload = function(){
     bgReady = true;
 };
-bgImage.src = "https://github.com/lostdecade/simple_canvas_game/blob/master/images/background.png";
+bgImage.src = "www.bghq.com/bgs/snes/f/ff6/c009.png";
 
 var heroReady = false;
 var heroImage = new Image();
@@ -35,7 +35,7 @@ var hero = {
 var monster ={
     x: 0,
     y: 0
-}
+};
 var monstersCaught = 0;
 
 //handle keyboard controls
@@ -81,7 +81,7 @@ var update = function(modifier){
          ++monstersCaught;
          reset();
     }
-}
+};
 
 // draw everything
 
@@ -121,3 +121,5 @@ requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame
 var then = Date.now();
 reset();
 main();
+
+//testing
